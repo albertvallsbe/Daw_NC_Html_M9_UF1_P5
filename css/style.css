@@ -1,0 +1,41 @@
+/*
+Això és un comentari css.
+*/
+/* 
+    Created on : 9 nov. 2019, 14:26:59
+    Author     : root
+*/
+
+/*Per defecte, si no assignem cap valor a la regla @media, el sistema enten que les regles d'un full css són pel mitjà screen*/
+
+:root {
+  --violeta: blueviolet;
+  --rosa: #f17fea;
+  --salmo: #ffe4c6;
+  --vermell: red;
+  --negre: #000000;
+}
+.h1-table h1 {
+  width: 95%;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  background-color: var(--violeta);
+}
+
+h1 {
+  color: var(--rosa); /*Color del títol h1 pel mitjà pantalla*/
+  font-family: Verdana; /*Color del títol h1 pel mitjà pantalla*/
+  text-align: center;
+}
+
+.form-table {
+  width: 450px;
+  height: 65px;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 10px;
+  background-color: var(--salmo);
+  border: 1px solid var(--violeta);
+}

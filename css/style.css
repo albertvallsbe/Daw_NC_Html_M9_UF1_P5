@@ -15,27 +15,69 @@ Això és un comentari css.
   --vermell: red;
   --negre: #000000;
 }
-.h1-table h1 {
-  width: 95%;
+.index-table-h1 h1 {
+  width: 99%;
   height: 40px;
   margin: 0 auto;
   margin-top: 15px;
   padding: 8px;
   background-color: var(--violeta);
+  color: var(--rosa); 
 }
 
 h1 {
-  color: var(--rosa); /*Color del títol h1 pel mitjà pantalla*/
-  font-family: Verdana; /*Color del títol h1 pel mitjà pantalla*/
+  font-family: Verdana; 
   text-align: center;
+}
+
+
+.pink-table-h1 h1 {
+  width: 99%;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  background-color: var(--rosa);
+  color: var(--violeta); 
 }
 
 .form-table {
   width: 450px;
-  height: 65px;
+  height: auto;
   margin: 0 auto;
   margin-top: 25px;
   padding: 10px;
   background-color: var(--salmo);
   border: 1px solid var(--violeta);
+  color: var(--violeta);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-table p{
+  text-align: center;
+}
+
+.img-center img{
+  align-items: center;
+  margin-top: 30px;
+}
+img{
+  display: block;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li::before{
+  content: "•";
+  padding-right: 8px;
+  color: var(--vermell)
+}
+
+.text-negreta{
+  font-weight: bold;
+  line-height: 3.6rem;
+  font-family: Verdana; 
 }
